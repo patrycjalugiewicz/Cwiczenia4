@@ -24,7 +24,7 @@ namespace Cwiczenia4.Controllers;
                 return NotFound();
             return Ok(animal);
         }
-
+    
         // POST api/animals
         [HttpPost]
         public IActionResult Post([FromBody] Animal animal)
